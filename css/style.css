@@ -73,7 +73,7 @@ font-size: 16px;
 }
 
 #contact {
-    display: inline-flex;
+    display: flex;
 }
 
 #contact > p {
@@ -96,7 +96,6 @@ font-size: 16px;
     width: 175px;
     height: 50px;
     padding: 10px;
-    display: flex;
     justify-content: center;
     justify-items: center;
     background-color: rgb(43, 156, 43);
@@ -152,25 +151,29 @@ font-size: 16px;
     }
     
     #name {
-        display: grid;
-        align-items: end;
-        justify-content: end;
+        display: flex;
+        margin-left: 30px;
+        /* align-items: end;
+        justify-content: end; */
         font-size: 30px;
-        position: relative;
-        right: 130px;
+        /* position: relative;
+        right: 130px; */
         
     }
 
     #brand > p {
-        display: grid;
-        align-items: center;
-        justify-content: center;
+        display: flex;
+        /* margin-left: 30px; */
+        /* align-items: center;
+        justify-content: center; */
         color: gray;
         text-align: start;
         font-size: 20px;
-        position: relative;
+        border-left: 3px solid green;
+        padding-left: 10px;
+        /* position: relative;
         left: 20px;
-        top: 85px;
+        top: 85px; */
     }
     
     #psychic {
@@ -179,31 +182,39 @@ font-size: 16px;
         justify-content: end; */
         /* background-color: lightgray; */
         font-size: 20px;
-        position: relative;
+        /* position: relative;
         top: -10px;
-        right: 80px; 
+        right: 80px;  */
+        margin-left: 30px;
+    }
+
+    #offer {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-left: 30px;
     }
 
     #strong-text {
     font-size: 16px;
-    display: grid;
+    /* display: flex;
     align-items: end;
-    justify-content: end;
+    justify-content: end; */
     /* background-color: lightgray; */
-    position: relative;
+    /* position: relative;
     left: -270px;
-    top: 30px;
+    top: 30px; */
     }
     
     #small-text {
         font-size: 18px;
-        display: grid;
+        /* display: flex;
         align-items: end;
-        justify-content: end;
+        justify-content: end; */
         /* background-color: lightgray; */
-        position: relative;
+        /* position: relative;
         left: -260px;
-        top: 15px;
+        top: 15px; */
     }
     
     #stars {
@@ -217,9 +228,10 @@ font-size: 16px;
     
     
     #contact {
-        display: grid;
-        align-items: start;
-        justify-content: start;
+        display: flex;
+        width: 300px;
+        /* align-items: start;
+        justify-content: start; */
     }
     
     #contact > p {
@@ -228,12 +240,16 @@ font-size: 16px;
     }
 
     #brand {
-        display: grid;
-        position: relative;
-        bottom: 100px;
-        left: 40px;
+        display: flex;
+        margin-left: 30px;
+        /* bottom: 100px;
+        left: 40px; */
     }
-    
+    #grid-footer{
+        position: relative;
+        bottom: 0px;
+    }
+
     #grid-right {
         display: grid;
         height: 400px;
@@ -248,7 +264,7 @@ font-size: 16px;
 
     #phone {
         display: grid;
-        width: 150px;
+        width: 200px;
         height: 70px;
         padding: 10px;
         position: relative;
@@ -262,14 +278,14 @@ font-size: 16px;
     
     #chat {
         display: grid;
-        width: 150px;
+        width: 200px;
         height: 70px;
         padding: 10px;
         align-items: center;
         justify-content: center;
-        justify-items: center;
+        /* justify-items: center; */
         position: relative;
-        bottom: 350px;
+        bottom: 281px;
         background-color: rgb(43, 156, 43);
     }
     
