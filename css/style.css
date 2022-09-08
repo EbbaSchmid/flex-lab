@@ -137,7 +137,7 @@ font-size: 16px;
         display: grid;
         margin: 40px 0px 0px 90px;
         align-items: start;
-        border: 2px solid greenyellow;
+        border: 5px solid greenyellow;
     }
     
     #status {
@@ -146,6 +146,7 @@ font-size: 16px;
         align-items: start;
         color: gray;
         padding: 10px;
+        font-size: 14px;
     }
     
     #name {
@@ -164,8 +165,6 @@ font-size: 16px;
         justify-content: center;
         color: gray;
         text-align: start;
-        text-justify: auto;
-        /* background-color: lightgray; */
         font-size: 20px;
         position: relative;
         left: 20px;
@@ -239,7 +238,7 @@ font-size: 16px;
         height: 70px;
         padding: 10px;
         grid-column: -3 / -4;
-        transform: translate(-710px, 330px);
+        transform: translate(-710px, 320px);
         align-items: center;
         justify-content: center;
         justify-items: center;
@@ -252,8 +251,8 @@ font-size: 16px;
         width: 175px;
         height: 70px;
         padding: 10px;
-        grid-column: -3 / -4;
-        transform: translate(-538px, 260px);
+        grid-column: -2 / -4;
+        transform: translate(-538px, 250px);
         align-items: center;
         justify-content: center;
         justify-items: center;
