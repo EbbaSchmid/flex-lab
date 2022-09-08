@@ -26,8 +26,9 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 100vh;
 }
-    /* min-height: 100vh; */
+    /*  */
 
 
 
@@ -114,24 +115,21 @@ font-size: 16px;
         Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
         margin: 0;
         display: grid;
-        column-count: 2;
+        /* column-count: 2; */
         grid-template-columns: 2;
-        grid-template-rows: 4;
+        /* grid-template-rows: ; */
         grid-template-areas: 
-            "header header"
-            "side content"
-            "side content"
-            "footer footer";
+            "left"
+            "right";
         /* justify-content: end;
         align-items: end; */
         /* min-height: 100vh; */
     }
     main {
-        width: 800px;
+        width: 700px;
         height: 400px;
         background-color: white;
         column-count: 2;
-
     }
     
     img {
@@ -150,21 +148,33 @@ font-size: 16px;
         padding: 10px;
     }
     
+    #name {
+        display: grid;
+        align-items: end;
+        justify-content: end;
+        font-size: 23px;
+        position: relative;
+        left: 150px;
+        bottom: 250px;
+
+
+    }
+
     #brand > p {
         display: grid;
         align-items: end;
         justify-content: end;
-        color: black;
+        color: gray;
         background-color: lightgray;
-    
+        font-size: 20px;
     }
     
     #phychic {
-        font-size: 16px;
         display: grid;
         align-items: end;
         justify-content: end;
-        background-color: lightgray;
+        /* background-color: lightgray; */
+        font-size: 20px;
     }
 
     #strong-text {
@@ -172,7 +182,10 @@ font-size: 16px;
     display: grid;
     align-items: end;
     justify-content: end;
-    background-color: lightgray;
+    /* background-color: lightgray; */
+    position: relative;
+    left: -350px;
+    top: 5px;
     }
     
     #small-text {
@@ -180,11 +193,14 @@ font-size: 16px;
         display: grid;
         align-items: end;
         justify-content: end;
-        background-color: lightgray;
+        /* background-color: lightgray; */
+        position: relative;
+        left: -360px;
+        top: 0px;
     }
     
     #occupation {
-        background-color: lightgray;
+        /* background-color: lightgray; */
         padding: 8px;
         width: 400px;
         display: grid;
@@ -192,53 +208,48 @@ font-size: 16px;
         justify-content: end;
     
     }
-    #name {
-        display: grid;
-        background-color: lightgray;
-        align-items: end;
-        justify-content: end;
-    }
+    
+    
     #contact {
         display: grid;
-        align-items: flex-start;
-        justify-content: flex-start;
-
-        grid-row: 0px;
+        align-items: start;
+        justify-content: start;
     }
     
     #contact > p {
         margin: 0px; 
     }
     
+    #grid-right {
+        display: grid;
+        height: 600px;
+        width: 500px;
+        background-color: lightgray;
+    }
+
     #phone {
         display: grid;
-        width: 300px;
-        height: 50px;
+        width: 175px;
+        height: 70px;
         padding: 10px;
-        grid-column: 1;
+        grid-column: -3 / -4;
+        transform: translate(-710px, 330px);
+        align-items: center;
         justify-content: center;
         justify-items: center;
         background-color: rgb(130, 225, 130);
     }
 
-    #gray-area-box {
-        display: grid;
-        align-items: end;
-        column-rule-color: #ff0000;
-    
-
-    }
     
     #chat {
-        display: flex;
-        width: 300px;
-        height: 50px;
-        padding: 10px;
-        grid-column: 2;
         display: grid;
-        grid-area: 5 /6;
-        align-items: start;
-        justify-content: start;
+        width: 175px;
+        height: 70px;
+        padding: 10px;
+        grid-column: -3 / -4;
+        transform: translate(-538px, 260px);
+        align-items: center;
+        justify-content: center;
         justify-items: center;
         background-color: rgb(43, 156, 43);
     }
