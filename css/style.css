@@ -160,14 +160,16 @@ font-size: 16px;
 
     #brand > p {
         display: grid;
-        align-items: end;
-        justify-content: end;
+        align-items: center;
+        justify-content: center;
         color: gray;
-        background-color: lightgray;
+        text-align: start;
+        text-justify: auto;
+        /* background-color: lightgray; */
         font-size: 20px;
         position: relative;
-        left: 50px;
-        top: 155px;
+        left: 20px;
+        top: 85px;
     }
     
     #psychic {
@@ -175,13 +177,11 @@ font-size: 16px;
         align-items: end;
         justify-content: end; */
         /* background-color: lightgray; */
-        /* font-size: 20px;
+        font-size: 20px;
         position: relative;
-        top: 10px;
-        right: 700px; */
+        top: 130px;
+        right: 150px; 
     }
-
-
 
     #strong-text {
     font-size: 16px;
@@ -190,29 +190,29 @@ font-size: 16px;
     justify-content: end;
     /* background-color: lightgray; */
     position: relative;
-    left: -350px;
-    top: 5px;
+    left: -370px;
+    top: 50px;
     }
     
     #small-text {
-        font-size: 14px;
+        font-size: 18px;
         display: grid;
         align-items: end;
         justify-content: end;
         /* background-color: lightgray; */
         position: relative;
         left: -360px;
-        top: 0px;
+        top: 50px;
     }
     
     #stars {
-        width: 400px; 
+        /* width: 400px; 
         display: grid; 
         align-items: end;
-        justify-content: end;  
-        /* position: relative;
-        right: 250px;
-        top: 105px;  */
+        justify-content: end;   */
+        position: relative;
+        right: -180px;
+        bottom: 255px; 
     }
     
     
